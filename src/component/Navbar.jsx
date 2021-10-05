@@ -1,9 +1,9 @@
 import React from 'react'
-import { Link, BrowserRouter as Router,} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export const Navbar = () => {
   return (
-    <Router>
+    <div>
       <nav className="navbar ">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <div className="container-fluid">
@@ -16,7 +16,7 @@ export const Navbar = () => {
                   <Link className="nav-link active" aria-current="page" to="/">Home</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/addmovie">Agregar pokemon</Link>
+                  <Link className="nav-link" to="/addpokemon">Agregar pokemon</Link>
                 </li>
               </ul>
               <form className="d-flex">
@@ -27,6 +27,6 @@ export const Navbar = () => {
           </div>
         </nav>
       </nav>
-    </Router>
+    </div>
   )
 }

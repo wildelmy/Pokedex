@@ -1,7 +1,6 @@
 import React from 'react'
 import {Form, Button} from 'react-bootstrap'
 import { Link, BrowserRouter as Router} from 'react-router-dom'
-import '../style/styleLogin.css'
 
 const Login = () => {
   return (

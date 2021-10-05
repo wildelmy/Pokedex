@@ -7,6 +7,7 @@ const Home = () => {
 
   useEffect(() => {
     getPokemons().then((list) => {
+      console.log(list);
       setPokemons(list)
     })
   }, [])

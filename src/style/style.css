@@ -1,0 +1,27 @@
+#formBasicEmail{
+    width: 20vw;
+}
+ 
+#formBasicPassword{
+    width: 20vw;
+}
+ 
+Form{
+    margin-left: 40%;
+}
+
+#pokemon-details {
+    overflow: hidden !important;
+    height: 85vh;
+    width: 100%;
+    background-image: url('https://cdn131.picsart.com/275970220025201.png');
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemon-card {
+    max-width: 520px;
+    max-height: 200px;
+}

@@ -15,7 +15,7 @@ const CardPokemon = ({pokemon}) => {
         return <div>Cargando</div>
     }
     return (
-        <Link to='/pokemon'>
+        <Link to={`/pokemon/${pokemon.name}`}>
             <div className="card" style={{width: "18rem"}}>
                 <img src={pokemonInfo.pokemon.sprites.front_default} className="m-auto" width="150" alt={pokemon.name}/>
                 <div className ="card-body">

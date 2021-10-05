@@ -1,9 +1,10 @@
 import React from 'react'
 
-export const AddMovie = () => {
+const AddCard = () => {
     return (
         <div>
-            addmovies
+            add pokemon
         </div>
     )
 }
+export default AddCard;
