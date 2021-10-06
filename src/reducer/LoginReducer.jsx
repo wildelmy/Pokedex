@@ -1,6 +1,6 @@
 import {types} from '../types/types'
 
-export const LoginReducers =(state={}, action) => {
+ const LoginReducers =(state={}, action) => {
 
     switch (action.type) {
         case types.login:
@@ -16,3 +16,4 @@ export const LoginReducers =(state={}, action) => {
     }
 
 }
+export default LoginReducers;

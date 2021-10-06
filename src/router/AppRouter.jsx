@@ -15,7 +15,6 @@ const AppRouter = () => {
   return (
     <Router>
       <Navbar />
-      <Login/>
       <Switch>
         <Route exact path='/login' component={Login}/>
         <Route exact path='/pokemon/:pokemonName' component={PokemonDetails} />
