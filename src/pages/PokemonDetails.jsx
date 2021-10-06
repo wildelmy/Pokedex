@@ -19,7 +19,7 @@ const PokemonDetails = () => {
       <div className="card mb-3 pokemon-card">
         <div className="row g-0">
           <div className="col-md-4">
-            <img src={pokemon?.pokemon?.sprites?.front_default} className="img-fluid rounded-start" alt="pokemon" />
+            <img src={pokemon?.pokemon?.sprites?.front_default} className="img-fluid rounded-start" alt="pokemon" width="300px" />
           </div>
           <div className="col-md-8">
             <div className="card-body">
@@ -33,6 +33,8 @@ const PokemonDetails = () => {
               {pokemon?.pokemon?.abilities.map((ability)=>{
                 return <li key={ability.ability.name}><strong>{ability.ability.name}</strong></li>
               })}
+              <strong>Sus antepasados: {pokemon?.specie?.evolves_from_species?.name || "No tiene"}</strong>
+              <br />
             </div>
           </div>
         </div>

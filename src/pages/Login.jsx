@@ -28,6 +28,8 @@ const Login = () => {
   }
 
   return (
+    <div>
+      <h1 id="title">Bienvenido a mi pokedex</h1>
     <Form id="formulario" onSubmit={handleLogin}>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Correo</Form.Label>
@@ -69,6 +71,7 @@ const Login = () => {
         </Container>
       </Container>
     </Form>
+    </div>
   )
 }
 export default Login
