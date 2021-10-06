@@ -33,7 +33,6 @@ const PokemonDetails = () => {
               {pokemon?.pokemon?.abilities.map((ability)=>{
                 return <li key={ability.ability.name}><strong>{ability.ability.name}</strong></li>
               })}
-              
             </div>
           </div>
         </div>
